@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(255, 244, 244);
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    color: black;
+    width: 100%;
+    padding: 10px 5px;
+    z-index: 5;
+}
+
+#toyota{
+    color: red;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 15px;
+}
+
+#neabar-2{
+    padding: 5px;
+}
+
+.naebar-2span{
+    padding: 3px;
+    margin: 0px 20px ;
+    border: 1px solid black;
+}
+
+.neabar-2-1{
+    padding: 3px;
+    margin: 0px 20px;
+    font-weight: bolder;
+}
+
+.workingarea{
+    margin-top: 35px;
+}
+
+/* #picaboinworking{
+    width: 100%;
+}
+
+#picaboinworkign img{
+    width: 100%;
+} */
+
+.chotabetaofworkingarea{
+    padding: 10px 30px;
+}
+
+#headingofworkingarea{
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+#chotapackes{
+    position: absolute;
+    margin-top: -130px;
+    color: white;
+    margin-left: 35px;
+}
+
+#carousel{
+ background-size: cover;   
+}
+
+.messaga{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#table-2{
+    width: 50%;
+    /* border: 1px solid black; */
+}
+
+.fotterkachotaabeta{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(207, 207, 207);
+}
+
+a{
+    text-decoration: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    font-weight: bolder;
+list-style: none;
+}
+
+.footer-2-1{
+    background-color: rgb(124, 124, 124);
+    padding: 5px;
+    color: white;
+}
